@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '', // Hi, My name is
   name: 'James Waters',
-  subtitle: "I'm a self taught developer",
+  subtitle: "I'm a self taught developer. Welcome to my website",
   cta: 'About me',
 };
 
@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'CS50.png',
+    title: 'CS50 Finance',
+    info: 'A fully functional web application for users to “buy” and “sell” stocks. Built using the micro web framework Flask.Utilized the relational database management system SQlite to create databases to store user information. Wrote SQL queries to update user accounts when stocks were bought or sold.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'www.google.com',
+    repo: 'https://github.com/Waters1993/Personal-Website', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

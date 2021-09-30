@@ -40,14 +40,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "I'm a senior engineer at Johson & Johnson in Massachusetts and have a Masters Degree in Engineering from University College Dublin. I grew up in Ireland"}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "I'm looking to leverage my technical and leadership skills developed from my experience in the medical device industry and transition to a career in data engineering."}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    "I'm passionate about bringing ideas to life online and using technology to gather new insight from big data. I've completed a number of massive open online courses including Harvard's CS50x and I'm currently completeing a course in cloud data engineering through Duke University on Coursera. Outside of coding, I love to climb and go hiking or biking around New England. Feel free to check out my projects or send me a message through the links below"}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
