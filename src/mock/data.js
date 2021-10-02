@@ -32,8 +32,8 @@ export const projectsData = [
     title: 'CS50 Finance',
     info: 'A fully functional web application for users to “buy” and “sell” stocks. Built using the micro web framework Flask.Utilized the relational database management system SQlite to create databases to store user information. Wrote SQL queries to update user accounts when stocks were bought or sold.',
     info2: '',
-    url: 'https://github.com/Waters1993/Personal-Website',
-    repo: 'https://github.com/Waters1993/Personal-Website', // if no repo, the button will not show up
+    url: 'https://github.com/Waters1993/CS50_Finance',
+    repo: 'https://github.com/Waters1993/CS50_Finance', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Alien Invasion',
     info: 'A replica of the classic arcade game of the same name. Written in Python3 using the Pygame library. This project uses an object-oriented design approach to create each game asset as a class within individual modules ',
     info2: '',
-    url: '',
+    url: 'https://youtu.be/QGz4MlLBK6s',
     repo: 'https://github.com/Waters1993/Alien_Invasion', // if no repo, the button will not show up
   },
   {
