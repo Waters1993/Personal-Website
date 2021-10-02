@@ -32,34 +32,34 @@ export const projectsData = [
     title: 'CS50 Finance',
     info: 'A fully functional web application for users to “buy” and “sell” stocks. Built using the micro web framework Flask.Utilized the relational database management system SQlite to create databases to store user information. Wrote SQL queries to update user accounts when stocks were bought or sold.',
     info2: '',
-    url: 'www.google.com',
+    url: 'https://github.com/Waters1993/Personal-Website',
     repo: 'https://github.com/Waters1993/Personal-Website', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'alien.JPG',
+    title: 'Alien Invasion',
+    info: 'A replica of the classic arcade game of the same name. Written in Python3 using the Pygame library. This project uses an object-oriented design approach to create each game asset as a class within individual modules ',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Waters1993/Alien_Invasion', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'web.JPG',
+    title: 'This website',
+    info: "This web app is competely static and simply served through a CDN. It is based on the JAMstack architecture. For the frontend, I am using Gatsby.js, a blazing-fast static-site generator based on React.js. The site is built and deployed on Netlify, an all-in-one platform for automating web projects. Form management and all other backend functionality is powered through Netlify's extremely generous free tier.",
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'www.james-waters.com',
+    repo: 'https://github.com/Waters1993/Personal-Website', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Email',
+  email: 'jwaters1993@outlook.com',
 };
 
 // FOOTER DATA
@@ -67,28 +67,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/james-waters-224b1ba3/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Waters1993',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
