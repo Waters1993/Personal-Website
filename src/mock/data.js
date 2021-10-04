@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Alien Invasion',
     info: 'A replica of the classic arcade game of the same name. Written in Python3 using the Pygame library. This project uses an object-oriented design approach to create each game asset as a class within individual modules ',
     info2: '',
-    url: 'https://youtu.be/QGz4MlLBK6s',
+    url: 'https://youtu.be/8SUCngv5eeU',
     repo: 'https://github.com/Waters1993/Alien_Invasion', // if no repo, the button will not show up
   },
   {
