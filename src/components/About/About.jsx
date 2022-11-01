@@ -44,7 +44,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "I'm looking to leverage my technical and leadership skills developed from my experience in the medical device industry and transition to a career in Software Development."}
+                    "I'm looking to leverage my technical and leadership skills developed from my experience in the medical device industryto transition to a career in digital systems and analytics."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
